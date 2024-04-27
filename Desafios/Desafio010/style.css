@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Nandinagari&family=Roboto+Slab:wght@300&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: "idroid.otf";
+    src: url("fontes/idroid.otf") format("truetype");
+}
+
+body {
+    background-color: #a3c9a8;
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, #5ccf6b, #184728);
+    box-shadow: 5px 5px 15px #191c29;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-left: -28px;
+    padding: 10px;
+    
+}
+
+header > b > h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    margin: 15px auto 0px auto;
+}
+
+header > p {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: white;
+}
+
+.menulista {
+    display: inline;
+    color: white;
+}
+
+menu {
+    padding-left: 32px;
+    padding-bottom: 7px;
+    margin-bottom: -7px;
+    margin-top: 30px;
+    
+}
+
+.botao {
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+    padding: 10px;
+    transition-duration: 0.3s;
+    
+}
+
+.botao:hover {
+  background-color: rgba(5, 138, 5, 0.432);
+  border-radius: 5px;
+}
+
+main {
+    background-color: #F1F3F9;
+    box-shadow: inset 0px 12px 14px -10px;
+    margin: 170px 70px 0px 70px;
+    padding: 20px;
+    transition-duration: 0.8s;
+    
+}
+
+main > h1 {
+    font-family: "idroid.otf", Arial, sans-serif;
+    color: darkgreen;
+    padding-left: 20px;
+
+}
+
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    text-indent: 20px;
+}
+
+main > h2 {
+    font-family: "idroid.otf", Arial, sans-serif;
+    color: rgb(2, 119, 2);
+    padding-left: 20px;
+    font-size: larger;
+}
+
+.imagem-grande {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.imagem-pequena {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+  }
+  
+  @media (max-width: 985px) {
+    .imagem-grande {
+      display: none;
+    }
+  
+    .imagem-pequena {
+      display: block;
+    }
+  }
+
+.mulher-grande {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.mulher-pequena {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+  }
+
+  @media (max-width: 985px) {
+    .mulher-grande {
+      display: none;
+    }
+  
+    .mulher-pequena {
+      display: block;
+    }
+  }
+
+.bugdroid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+div.video {
+    background-color: #086427;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+h3 {
+  color: white;
+  background-color: #1ca84b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+
+.prefinal {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -19px;
+    padding-bottom: 1px;
+    padding-top: 5px;
+    text-indent: 20px;
+    background-color: #dbfde0;
+}
+
+.listas {
+  display: flex;
+  color: black;
+  list-style: disc;
+  list-style-position: inside;
+  list-style-image: image-set("a.png");
+}
+
+.listasdois {
+  padding-right: 50px;
+}
+
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #086427;
+  margin: 0px -8px;
+  font-size: medium;
+
+}
